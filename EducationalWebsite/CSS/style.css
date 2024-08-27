@@ -294,3 +294,64 @@ nav ul li a {
 .course-btn button:hover {
     background-color: #f2341b;
 }
+
+
+/* Starting faq  */
+
+.section-4 {
+    width: 78vw;
+    margin: 10vh auto;
+    padding: 10px;
+    /* background-color: var(--color-bg1); */
+    color: var(--color-white);
+}
+
+.faq-head {
+    font-size: 30px;
+    margin: 20px 0px;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.container-faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.faq-questions {
+    background-color: var(--color-primary);
+    height: fit-content;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.faq-questions .upper {
+    display: flex;
+    gap: 30px;
+    font-size: 1rem;
+}
+
+.faq-questions .lower {
+    font-size: 0.9rem;
+    color: var(--color-light);
+    padding-top: 10px;
+    display: none;
+}
+
+.minus {
+    display: none;
+}
+
+.faq-open .lower {
+    display: block;
+}
+
+.faq-open .minus {
+    display: block;
+}
+
+.faq-open .plus {
+    display: none;
+}
+

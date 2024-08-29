@@ -38,6 +38,7 @@ header {
 /* Add javascript to navbar  when we scroll the window then the navbar color can change */
 .window-scroll {
     background-color: var(--color-bg2);
+    width: 100%;
 }
 
 nav {
@@ -148,6 +149,7 @@ nav ul li a {
 }
 
 .section-2-right {
+    height: 100%;
     width: 35%;
     color: var(--color-white);
     display: grid;
@@ -225,30 +227,28 @@ nav ul li a {
     background-color: var(--color-primary);
 }
 
+
 /* Section 2 ending */
 
 .section-3 {
-    margin: auto;
+    margin: 15vh auto;
     padding: 10px;
     width: 78vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .section-3 .section-3-heading {
     color: var(--color-white);
     font-size: 2.2rem;
-    margin: 10vh 0px;
+    margin: 50px 0px;
 }
 
 .container-courses {
-    width: 24vw;
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .container-courses .course {
@@ -258,11 +258,13 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    width: 30%;
 }
 
 
 .container-courses .course .img img {
-    width: 24vw;
+    width: 100%;
+    object-fit: cover;
 }
 
 .course-heading {
@@ -300,9 +302,8 @@ nav ul li a {
 
 .section-4 {
     width: 78vw;
-    margin: 10vh auto;
+    margin: auto;
     padding: 10px;
-    /* background-color: var(--color-bg1); */
     color: var(--color-white);
 }
 
@@ -310,13 +311,13 @@ nav ul li a {
     font-size: 30px;
     margin: 20px 0px;
     text-align: center;
-    margin-bottom: 10vh;
 }
 
 .container-faq {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    margin-top: 60px;
 }
 
 .faq-questions {
@@ -360,8 +361,9 @@ nav ul li a {
 .section-5 {
     width: 78vw;
     height: 100%;
-    margin: 10vh auto;
+    margin: auto;
     position: relative;
+    margin-bottom: 60px;
 }
 
 .testimonial-head {
@@ -442,3 +444,397 @@ nav ul li a {
     background-color: var(--color-primary);
     color: var(--color-white);
 }
+
+/* footer styling start */
+footer {
+    background-color: var(--color-bg1);
+    height: 100%;
+}
+
+.footer-container {
+    margin: auto;
+    width: 78vw;
+    padding: 10px;
+    color: var(--color-white);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 60px 0px;
+}
+
+.footer-container .kamal {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.kamal-head {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.kamal-detail {
+    font-size: 14px;
+    color: var(--color-light);
+}
+
+.footer-container .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-container .links .links-head {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.footer-container .links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--color-light);
+}
+
+.footer-container .privacy {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-container .privacy .privacy-head {
+    color: var(--color-white);
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.footer-container .privacy a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--color-light);
+}
+
+
+.footer-container .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-container .contact .contact-head {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: var(--color-white);
+}
+
+.footer-container .contact {
+    color: var(--color-light);
+}
+
+.contact-social-media {
+    padding-top: 10px;
+}
+
+.contact-social-media a {
+    padding: 5px 5px 0px 5px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 0px 3px;
+}
+
+/* Make responsive  */
+
+@media (max-width: 1050px) {
+    .section-2-right {
+        width: 50%;
+        height: 100%;
+    }
+
+    .section-1 {
+        height: 50vh;
+    }
+
+    .section-2 {
+        height: 40vh;
+    }
+
+    .section-2-box {
+        height: 55vh;
+    }
+
+    .section-3 {
+        margin: 5vh auto;
+    }
+
+    .section-4 {
+        margin: 5vh auto;
+    }
+
+    .container-faq {
+        margin-top: 50px;
+    }
+
+    .testimonial-head {
+        margin: 5vh 0px;
+    }
+
+    .testimonial-container {
+        height: 25vh;
+    }
+}
+
+@media (max-width: 950px) {
+    .section-2-box {
+        height: 60vh;
+    }
+
+    .prev {
+        top: 200px;
+    }
+
+    .next {
+        top: 200px;
+    }
+}
+
+@media (max-width: 860px) {
+
+    .section-2-right {
+        width: 60%;
+        height: 100%;
+    }
+
+    .section-1 {
+        height: 40vh;
+    }
+
+    .section-2 {
+        height: 50vh;
+    }
+
+
+}
+
+@media (max-width: 780px) {
+    .section-2-box {
+        height: 70vh;
+    }
+
+    .section-2 {
+        height: 60vh;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .main-details h1 {
+        font-size: 16px;
+    }
+
+    .main-details span {
+        font-size: 12px;
+    }
+
+    .main-details .main-btn {
+        margin: 15px 0px;
+    }
+
+    .section-2 {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-2-right {
+        width: 85%;
+        height: 100%;
+        padding: 20px;
+        gap: 15px;
+        margin-top: 0%;
+    }
+
+    .section-2-left {
+        width: 80%;
+        padding: 0px;
+    }
+
+    .section-2-head {
+        font-size: 2rem;
+    }
+
+    .section-2-left div {
+        margin: 10px 0px;
+    }
+
+    .section-2-left .section-2-details {
+        font-size: 12px;
+    }
+
+    .section-2-left .section-2-btn button {
+        padding: 8px 8px;
+    }
+
+    .section-2 {
+        height: 35vh;
+    }
+
+    .section-2-right-content {
+        padding: 10px;
+    }
+
+    .section-2-right {
+        padding: 10px;
+        margin-top: 5%;
+    }
+
+
+    .section-2-right-content .head {
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .section-2-right-content .discription {
+        font-size: 12px;
+
+    }
+
+    .section-2-right-content img {
+        padding: 5px;
+    }
+
+    .section-2-box {
+        height: 85vh;
+    }
+
+    .section-3 .section-3-heading {
+        font-size: 2rem;
+        margin: 25px 0px;
+    }
+
+    .course-heading {
+        font-size: 15px;
+    }
+
+    .discrition-course {
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+
+    .course-btn button {
+        padding: 8px;
+        margin: 15px 0px;
+    }
+
+    .section-3 {
+        height: 90vh;
+    }
+
+    .section-4 {
+        margin: auto;
+    }
+
+    .faq-head {
+        font-size: 25px;
+        margin: 15px 0px;
+    }
+
+    .container-faq {
+        margin-top: 35px;
+    }
+
+    .faq-questions {
+        padding: 10px;
+    }
+
+    .faq-questions .upper h4 {
+        font-size: 12px;
+    }
+
+    .testimonial-head {
+        margin: 20px 0px;
+    }
+
+    .section-5 {
+        margin-bottom: 15px;
+    }
+
+    .testimonial-image img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial-name {
+        font-size: 13px;
+    }
+
+    .testimonial .student {
+        font-size: 12px;
+    }
+
+    .testimonial-para {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .testimonial-container {
+        height: 33vh;
+    }
+
+    .faq-questions .lower {
+        font-size: 0.7rem;
+    }
+
+    .footer-container {
+        gap: 20px;
+        padding: 30px 0px;
+    }
+
+    .footer-container .kamal {
+        gap: 15px;
+    }
+
+    .kamal-head {
+        font-size: 20px;
+    }
+
+    .kamal-detail {
+        font-size: 10px;
+    }
+
+    .footer-container .links .links-head {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+
+    .footer-container .links a {
+        font-size: 12px;
+    }
+
+    .footer-container .privacy .privacy-head {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .footer-container .privacy a {
+        font-size: 12px;
+    }
+
+    .footer-container .contact .contact-head {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .footer-container .contact-number {
+        font-size: 12px;
+    }
+
+    .footer-container .contact-gmail {
+        font-size: 12px;
+    }
+
+}
+

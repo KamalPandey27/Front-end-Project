@@ -898,27 +898,34 @@ footer {
         padding: 6px;
         border-radius: 30%;
     }
+
     .section-3 .section-3-heading {
         font-size: 15px;
         margin: 15px 0px;
     }
+
     .section-3 {
         height: 65vh;
     }
+
     .section-3 {
         margin: 0px auto;
     }
+
     .container-courses .course {
         gap: 10px;
         width: 25%;
     }
+
     .course-heading {
         font-size: 10px;
     }
+
     .discrition-course {
         padding: 0px 5px;
         font-size: 10px;
     }
+
     .course-btn button {
         padding: 5px;
         margin: 8px 0px;

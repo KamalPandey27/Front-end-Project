@@ -906,10 +906,9 @@ footer {
 
     .section-3 {
         height: 65vh;
-    }
-
-    .section-3 {
         margin: 0px auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 
     .container-courses .course {
@@ -932,4 +931,101 @@ footer {
         font-size: 10px;
     }
 
+    .faq-head {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    .faq-questions .upper {
+        display: flex;
+        gap: 20px;
+    }
+
+    .faq-questions .upper h4 {
+        font-size: 8px;
+    }
+
+    .container-faq {
+        gap: 20px;
+    }
+
+    .testimonial-head {
+        font-size: 15px;
+    }
+
+    .testimonial-image img {
+        border: 5px solid var(--color-bg2);
+    }
+
+    .testimonial-name {
+        font-size: 10px;
+    }
+
+    .testimonial .student {
+        font-size: 10px;
+    }
+
+    .testimonial {
+        gap: 5px;
+    }
+
+    .testimonial-para {
+        font-size: 8px;
+    }
+
+    .prev {
+        top: 110px;
+        left: -25px;
+        padding: 1px 6px;
+        font-size: 20px;
+    }
+
+    .next {
+        top: 110px;
+        right: -35px;
+        padding: 1px 6px;
+        font-size: 20px;
+    }
+    .footer-container {
+        gap: 10px;
+        padding: 20px 0px;
+    }
+    .kamal-head {
+        font-size: 15px;
+    }
+    .footer-container .links .links-head {
+        font-size: 15px;
+        font-weight: 700;
+        padding-bottom: 5px;
+    }
+    .footer-container .privacy .privacy-head {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .footer-container .contact .contact-head {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .kamal-detail {
+        font-size: 8px;
+    }
+    .footer-container .links a {
+        font-size: 10px;
+    }
+    .footer-container .privacy a {
+        font-size: 10px;
+    }
+    .footer-container .contact-gmail {
+        font-size: 10px;
+    }
+    .footer-container .contact-number {
+        font-size: 10px;
+    }
+    .contact-social-media {
+        padding-top: 5px;
+    }
+    .contact-social-media a {
+        padding: 3px 3px 0px 3px;
+        margin: 0px;
+    }
 }

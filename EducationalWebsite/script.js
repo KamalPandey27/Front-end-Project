@@ -26,19 +26,19 @@ let next = document.querySelector('.next')
 
 let count = 0
 
-let testimonialInterval = setInterval(() => {
-    if (count < testimonial.length - 1) {
-        Array.from(testimonial).forEach((e) => {
-            e.style.transform = `translateX(${-100 * count}%)`
-        })
-        count++
-    }
+// let testimonialInterval = setInterval(() => {
+//     if (count < testimonial.length - 1) {
+//         Array.from(testimonial).forEach((e) => {
+//             e.style.transform = `translateX(${-100 * count}%)`
+//         })
+//         count++
+//     }
 
-    if (count == testimonial.length - 1) {
-        count = 0
-    }
+//     if (count == testimonial.length - 1) {
+//         count = 0
+//     }
 
-}, 1000);
+// }, 1000);
 
 prev.addEventListener('click', () => {
 

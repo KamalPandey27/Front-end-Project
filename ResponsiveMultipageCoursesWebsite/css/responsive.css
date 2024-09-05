@@ -149,6 +149,19 @@
     .scholor {
         padding: 15px;
     }
+
+    .review {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    .review img {
+        width: 13px;
+    }
+
+    .review svg {
+        width: 13px;
+    }
 }
 
 /* Responsive style of section 3 */
@@ -197,27 +210,114 @@
     }
 
 }
-@media (max-width:550px){
+
+@media (max-width:550px) {
     .section-3-course-head {
         font-size: 20px;
         font-weight: 900;
     }
+
     .section-3-course-discription {
         color: rgb(118, 118, 118);
         font-size: 12px;
         text-align: center;
     }
+
     .time {
         font-size: 10px;
         padding-bottom: 5px;
         color: rgb(118, 118, 118);
     }
+
     .coursetopic {
         font-size: 13px;
         font-weight: 700;
     }
+
     .coursedetails {
         padding: 10px;
     }
 
+}
+
+/* Section 4 styling */
+
+@media (max-width:1060px) {
+    .section-4 {
+        height: 100vh;
+    }
+
+    .section-4-register-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .section-4-leftbox h2 {
+        padding-bottom: 25px;
+    }
+
+    .section-4-leftbox {
+        width: 100%;
+    }
+
+    .section-4-rightbox {
+        width: 100%;
+    }
+}
+
+@media (max-width:1060px) {
+    .section-4-leftbox p {
+        color: white;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .section-4-leftbox h2 {
+        color: white;
+        font-size: 30px;
+    }
+
+    .section-4-time span {
+        color: white;
+        background-color: rgba(255, 255, 255, 0.369);
+        padding: 20px 15px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .section-4-time span {
+        color: white;
+        background-color: rgba(255, 255, 255, 0.369);
+        padding: 20px 15px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+}
+
+/* Responsive style on section 5 */
+
+@media (max-width:1050px) {
+    .section-5-profilecontainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:780px) {
+    .section-5-profilecontainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:500px) {
+    .section-5-profilecontainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-5-container p {
+        color: grey;
+        text-align: center;
+        font-size: 14px;
+    }
 }

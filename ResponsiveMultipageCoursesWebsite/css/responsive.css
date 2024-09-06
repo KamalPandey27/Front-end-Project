@@ -304,20 +304,165 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media (max-width:780px) {
     .section-5-profilecontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media (max-width:500px) {
     .section-5-profilecontainer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .section-5-container p {
         color: grey;
         text-align: center;
         font-size: 14px;
+    }
+}
+
+
+
+/* Footer Styling */
+
+@media (max-width:950px) {
+    .footerupperbox div {
+        font-size: 13px;
+        padding-bottom: 10px;
+        font-weight: 900;
+    }
+
+    .footerupperbox span {
+        font-size: 10px;
+        color: grey;
+    }
+
+    .footersubscribe input,
+    button {
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    .footercopyright {
+        font-size: 10px;
+        font-weight: 900;
+    }
+
+    .footersocial img {
+        background-color: rgba(255, 255, 255);
+        padding: 3px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+
+
+}
+
+@media (max-width:700px) {
+    .footerupperbox div {
+        font-size: 10px;
+        padding-bottom: 5px;
+        font-weight: 900;
+    }
+
+    .footerupperbox span {
+        font-size: 8px;
+        color: grey;
+    }
+
+    .footerupperbox {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footersubscribe input,
+    button {
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 8px;
+        display: block;
+        margin: 7px 0px;
+    }
+
+}
+
+@media (max-width:700px) {
+
+    .footer-container {
+        width: 85vw;
+        margin: 0px auto;
+        padding: 30px 0px;
+    }
+
+    .footerfeature {
+        display: none;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .footercopyright {
+        font-size: 6px;
+        font-weight: 900;
+    }
+
+    .footersocial img {
+        background-color: rgba(255, 255, 255);
+        padding: 3px;
+        border-radius: 3px;
+        cursor: pointer;
+        width: 18px;
+    }
+
+    .footerlowerboxes {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-container {
+        width: 85vw;
+        margin: 0px auto;
+        padding: 20px 0px;
+    }
+
+    .footerupperbox div {
+        font-size: 7px;
+        padding-bottom: 5px;
+        font-weight: 900;
+    }
+
+    .footerupperbox span {
+        font-size: 6px;
+        color: grey;
+    }
+
+    .footersubscribe input,
+    button {
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 4px;
+        display: block;
+        margin: 7px 0px;
+    }
+
+    .footerlowerboxes {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }

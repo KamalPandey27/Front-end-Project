@@ -446,3 +446,85 @@ nav ul li a {
     padding: 5px;
     border-radius: 2px;
 }
+
+
+/* Styling footer */
+
+footer {
+    background-color: #091938;
+    color: white;
+}
+
+.footer-container {
+    width: 85vw;
+    margin: 0px auto;
+    padding: 60px 0px;
+}
+
+.footerupperboxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.footerupperbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerupperbox div {
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+
+.footerupperbox span {
+    font-size: 12px;
+    color: grey;
+}
+
+.footerupperbox span a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footersubscribe input,
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.footersubscribe input {
+    background-color: #143679;
+
+}
+
+.footersubscribe button {
+    background-color: rgb(219, 188, 12);
+}
+
+.footersubscribe button:hover {
+    background-color: gold;
+}
+
+.footerlowerboxes {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footercopyright {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.footersocial img {
+    background-color: rgba(255, 255, 255);
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+

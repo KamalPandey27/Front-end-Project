@@ -1,0 +1,210 @@
+/* Styling section 1 of about page*/
+
+.aboutsection-1 {
+    background: url(../image/back1.jpg);
+    width: 100%;
+    height: 43vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutsection-1::before {
+    content: '';
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutsection-1 h1 {
+    color: white;
+    font-size: 35px;
+    position: relative;
+}
+
+/* Section 2 styling */
+.aboutsection-2-img img {
+    width: 40vw;
+}
+
+.aboutsection-2 {
+    margin: 0px auto;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.aboutsection-2-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+.aboutsection-2-right-description {
+    font-size: 15px;
+    color: grey;
+}
+
+.aboutsection-2-total-course {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.aboutsection-2-total-course div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: grey;
+}
+
+.aboutsection-2-total-course .head {
+    font-weight: 900;
+    color: black;
+}
+
+.aboutsection-2-total-course img {
+    width: 45px;
+    height: 45px;
+}
+
+/* section 3 of about page */
+.aboutsection-3 {
+    margin: 0px auto;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.aboutsection-3-head div {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.aboutsection-3-head span {
+    color: grey;
+    text-align: center;
+}
+
+.aboutsection-3-img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.aboutsection-3-img img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Responsive code  */
+
+
+@media (max-width:850px) {
+    .aboutsection-2-right h2 {
+        font-size: 15px;
+    }
+
+    .aboutsection-2-right {
+        gap: 15px;
+    }
+
+    .aboutsection-2-img img {
+        width: 50vw;
+    }
+
+    .aboutsection-2-right-description {
+        font-size: 12px;
+        color: grey;
+    }
+
+    .aboutsection-2 {
+        gap: 50px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .aboutsection-1 h1 {
+        color: white;
+        font-size: 30px;
+        position: relative;
+    }
+
+    .aboutsection-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .aboutsection-2-img img {
+        width: 65vw;
+    }
+
+    .aboutsection-3-head div {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 900;
+        padding-bottom: 10px;
+    }
+
+    .aboutsection-3-head span {
+        color: grey;
+        font-size: 14px;
+    }
+
+    .aboutsection-3-img img {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media (max-width:540px) {
+    .aboutsection-3-img img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .aboutsection-3 {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .aboutsection-3-img img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .aboutsection-3 {
+        margin: 35px auto;
+        gap: 35px
+    }
+
+    .aboutsection-3-head div {
+        font-size: 26px;
+    }
+
+    .aboutsection-3-head span {
+        color: grey;
+        font-size: 12px;
+    }
+
+}

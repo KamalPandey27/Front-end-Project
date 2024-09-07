@@ -1,0 +1,192 @@
+.jscourseimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../image/back1.jpg);
+    width: 100%;
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jscourseimage::before {
+    content: '';
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.jscourseimage h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+}
+
+.JsCourseSection {
+    width: 90vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.JsCourseSection .courseimage {
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.secondboximage {
+    width: 65px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.left {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.firstboxleft {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.firstboxleftleft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.firstboxleftdetail {
+    font-size: 14px;
+    color: grey;
+    width: 80%;
+}
+
+.firstboxright span {
+    background-color: rgb(217, 217, 250);
+    color: #9013fe;
+    font-weight: 900;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.secondbox .secondboxhead h2 {
+    padding-bottom: 25px;
+}
+
+.secondboxheaddetail {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid grey;
+}
+
+.secondboxheadname {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.secondboxheadnamework {
+    color: grey;
+}
+
+.courseoverview {
+    padding: 30px 0px;
+    border-bottom: 2px solid grey;
+}
+
+.courseoverview span {
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.courseoverviewpara {
+    margin-top: 20px;
+}
+
+.courseoverviewpara p {
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: grey;
+}
+
+.learndetail {
+    margin: 30px 0px;
+}
+
+.learndetail {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.learndetail div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    color: rgb(28, 27, 27);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2), -1px -1px 10px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    padding: 35px 25px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.righthead {
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.rightcontent div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.rightcontent span {
+    color: grey;
+    font-size: 14px;
+}
+
+.rightcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right button {
+    background-color: #9013fe;
+    width: 60%;
+    border-radius: 5px;
+    color: white;
+    border: none;
+
+}
+
+.right button:hover {
+    background-color: #7911d4;
+}

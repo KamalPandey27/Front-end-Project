@@ -157,7 +157,7 @@
 }
 
 .righthead {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 900;
 }
 
@@ -189,4 +189,152 @@
 
 .right button:hover {
     background-color: #7911d4;
+}
+
+
+/* Make responsive course js page */
+
+@media (max-width:750px) {
+    .jscourseimage h1 {
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+        position: relative;
+    }
+
+    .firstboxleftleft h2 {
+
+        font-size: 16px;
+
+    }
+
+    .firstboxright span {
+        background-color: rgb(217, 217, 250);
+        color: #9013fe;
+        font-weight: 900;
+        padding: 7px;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+
+    .firstboxleftdetail {
+        font-size: 10px;
+        color: grey;
+        width: 80%;
+    }
+
+    .secondboximage {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .secondbox .secondboxhead h2 {
+        padding-bottom: 25px;
+        font-size: 16px;
+    }
+
+    .secondboxheadname {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    .courseoverview {
+        padding: 25px 0px;
+        border-bottom: 2px solid grey;
+    }
+
+    .courseoverview span {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .courseoverviewpara p {
+        padding-bottom: 15px;
+        font-size: 10px;
+        color: grey;
+    }
+
+    .learndetail div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 11px;
+        color: rgb(28, 27, 27);
+    }
+
+    .righthead {
+        font-size: 12px;
+        font-weight: 900;
+    }
+
+    .rightcontent span {
+        color: grey;
+        font-size: 11px;
+    }
+
+    .JsCourseSection {
+        width: 90vw;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    .left {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2), -1px -1px 10px rgba(0, 0, 0, 0.2);
+        height: fit-content;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 15px;
+        width: 70%;
+        margin: auto;
+    }
+    .footersubscribe input, button {
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+        display: block;
+        margin: 0px;
+    }
+
+}
+
+@media (max-width:550px) {
+    .jscourseimage h1 {
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        position: relative;
+        text-align: center;
+    }
+
+    .jscourseimage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../image/back1.jpg);
+        width: 100%;
+        height: 45vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
 }

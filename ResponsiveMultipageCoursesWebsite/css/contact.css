@@ -1,0 +1,285 @@
+.Contactsection-1 {
+    background: url(../image/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contactsection-1::before {
+    content: '';
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+}
+
+.Contactsection-1 h1 {
+    color: white;
+    position: relative;
+    font-size: 35px;
+}
+
+
+.Contactsection-2 {
+    width: 85vw;
+    margin: 30px auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.ContactSectionLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.firstbox {
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+.firstbox h2 {
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+
+.firstbox p {
+    font-size: 14px;
+    color: grey;
+}
+
+
+
+.headquater {
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.headquater p {
+    font-size: 14px;
+    color: grey;
+}
+
+.thirdbox .phone {
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.thirdbox .phone p {
+    font-size: 14px;
+    color: grey;
+}
+
+.fourthbox .support {
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.fourthbox .support p {
+    color: grey;
+    font-size: 14px;
+}
+
+.firthbox .follow {
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.firthbox .follow img {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.firthbox .follow img:hover {
+    background-color: rgb(206, 204, 204);
+}
+
+.ContactSectionRight {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(243, 243, 250);
+    padding: 30px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.ContactSectionRight p {
+    color: grey;
+    font-size: 14px;
+}
+
+.ContactSectionRight form {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ContactSectionRight form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+.inputbox-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.inputbox-1 input {
+    width: 100%;
+    font-size: 14px;
+}
+
+#help {
+    height: 150px;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+#sendbtn {
+    background-color: rgb(22, 22, 133);
+    color: white;
+    cursor: pointer;
+}
+
+#sendbtn:hover {
+    background-color: rgb(28, 28, 173);
+}
+
+.mapsection{
+    width: 100%;
+    height: 70vh;
+}
+.mapsection iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* Responsive code  */
+
+@media (max-width:850px){
+    .ContactSectionRight form input {
+        font-size: 10px;
+    }
+    #help {
+        font-size: 10px;
+    }
+
+}
+
+
+@media (max-width:700px){ 
+    .ContactSectionLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .firstbox h2 {
+        font-weight: 900;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .firstbox p {
+        font-size: 11px;
+        color: grey;
+    }
+
+    .ContactSectionLeft span{
+        font-size: 13px;
+    }
+    .headquater p {
+        font-size: 10px;
+        color: grey;
+    }
+    .thirdbox .phone p {
+        font-size: 10px;
+        color: grey;
+    }
+    .fourthbox .support p {
+        color: grey;
+        font-size: 10px;
+    }
+    
+    .ContactSectionRight {
+        padding: 20px;
+    }
+
+    .ContactSectionRight h2{
+        font-size: 15px;
+    }
+
+    .ContactSectionRight p {
+        color: grey;
+        font-size: 11px;
+    }
+
+    .ContactSectionRight form input {
+        font-size: 8px;
+    }
+    #help {
+        font-size: 8px;
+    }
+    .ContactSectionRight form {
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .Contactsection-1 h1 {
+        color: white;
+        position: relative;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:600px){  
+    .Contactsection-1 {
+        height: 40vh;
+    }
+    .Contactsection-2 {
+        width: 85vw;
+        margin: 30px auto;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ContactSectionRight {
+        width: 100%;
+    }
+    .ContactSectionLeft {
+        gap: 20px;
+    }
+
+}
